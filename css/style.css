@@ -209,8 +209,11 @@ footer{
 }
 
 .img-redes{
-  position: relative;
   margin-left: 75px;
+}
+
+.img-redes1{
+  margin-left: 145px;
 }
 
 .final{
