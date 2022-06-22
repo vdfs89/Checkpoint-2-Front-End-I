@@ -7,6 +7,10 @@
   font-family: Roboto, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body{
   background: #FF0B0B;
   background: -moz-linear-gradient(-45deg, #FF0B0B 0%, #FF9A1F 50%, #FFBE29 100%);
@@ -58,6 +62,10 @@ nav:hover{
 
 li a{
   text-decoration: none;
+}
+
+.btn-mobile{
+  display: none;
 }
 
 .banner{
@@ -205,7 +213,7 @@ footer{
 
 .aluno h4{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .img-redes{
@@ -221,4 +229,94 @@ footer{
   display: flex;
   justify-content: center;
   background-color: #89CFF0;
+}
+
+@media (max-width: 1398px){
+  html{
+    font-size: 16px;
+  }
+
+  body{
+    width: 1398px;
+  }
+}
+
+@media (max-width: 1281px){
+  html{
+    font-size: 16px;
+  }
+
+  body{
+    width: 1322px;
+  }
+
+  main .banner{
+    width: 100%;
+  }
+
+  .container-cards{
+    margin-left: 200px;
+  }
+}
+
+@media (max-width: 426px){
+  html{
+    font-size: 16px;
+  }
+
+  body{
+    width: 1300px;
+  }
+
+  header{
+    display: flex;
+  }
+
+  .btn-mobile{
+    display: block;
+  }
+
+  .item-nav{
+    display: none;
+  }
+
+  main{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-cards{
+    height: 100%;
+    display: flex;
+    align-items: center;    
+  }
+
+  .cards{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+  }
+
+  .link{
+    display: flex;
+    align-self: center;
+    margin: 50px;
+  }
+
+  .savannah{
+    display: flex;
+    width: 100%;
+  }
+
+  footer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 300px;
+  }
+
+  .final{
+    height: 50px;
+  }
 }
