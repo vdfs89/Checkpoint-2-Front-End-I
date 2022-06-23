@@ -20,7 +20,7 @@ body{
 
 header{
   width: 100%;
-  height: 80px;
+  height: 90px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -30,8 +30,14 @@ header{
   position: fixed;
 }
 
-.logo{
-  transform: scale(1);
+.logo img{
+  width: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.txt-logo span{
+  color: #DA2614;
 }
 
 .nav ul{
