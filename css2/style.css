@@ -11,6 +11,52 @@ html {
   scroll-behavior: smooth;
 }
 
+main {
+padding: 10%;
+line-height: 2;
+}
+
+p{
+  font-size: 12px;
+}
+
+h1 {
+  background-image: linear-gradient(90deg, rgba(219,206,202,1) 0%, rgba(206,224,17,1) 35%, rgba(255,115,0,1) 100%);
+  color: black;
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  /* Adicionado: */
+  -webkit-text-fill-color: transparent;
+}
+
+main h3, h2{
+  line-height: 4;
+}
+
+strong {
+gap: 15px;
+line-height: 3;
+}
+
+.video2{
+  margin-bottom: 20px;
+  margin: 0px, -20px, -30px, -20px;
+  padding: 20px;
+  padding-bottom: 55%;
+  position: relative;
+}
+
+div.video2 > iframe{
+  height: 90%;
+  width: 90% ;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+
+}
+
+
 body{
   background: #FF0B0B;
   background: -moz-linear-gradient(-45deg, #FF0B0B 0%, #FF9A1F 50%, #FFBE29 100%);
