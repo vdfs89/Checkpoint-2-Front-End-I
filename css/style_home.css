@@ -122,7 +122,7 @@ color: #1E62D0;
 
 .text-banner span:hover {
   color: darkred;
-  font-size: 30px;
+  font-size: 30px;  
   }
 
 .botao-banner {
@@ -209,7 +209,7 @@ h1 {
 
 .conteudo-card{
   width: 100%;
-  height: 205px;
+  height: 240px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -236,6 +236,7 @@ h1 {
   margin: auto;
   margin-bottom: 2%;
   background-color: #1E62D0;
+  line-height: 30px;
 }
 
 .link a{
@@ -244,7 +245,7 @@ h1 {
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: black;
+  color: white;
   
 }
 
@@ -289,11 +290,32 @@ footer{
     font-size: 0.75rem;
   }
 
-  .banner {
-    height: 400px;
+  body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  } 
+
+  .cards {
+    width: 30%;    
   }
 
-@media (max-width: 460px){
+  main {
+    margin-top: 100px;
+  }
+
+  footer{
+    margin: 5%;
+    padding: 1%;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    position: relative;
+  }
+
+}
+
+@media (max-width: 480px){
   html{
     font-size: 16px;
   }
@@ -301,11 +323,11 @@ footer{
   body {
     width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: column;    
   }
 
   header{    
-    position: relative;    
+    position: absolute;    
   }
 
   .btn-mobile{
@@ -316,8 +338,16 @@ footer{
     display: none;
   }
 
+  .banner{
+    padding: 3px;
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+  }
+
   .text-banner {
-    text-align: justify;
+    text-align:center;
+    width: 90%;         
   }
 
   .container-cards{
