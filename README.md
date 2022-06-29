@@ -1,2 +1,2 @@
 # projetofinal2
-Projeto de Matheus Quirino, Gustavo Ribeiro  e Victor Diego
+Projeto de Matheus Quirino, Gustavo Ribeiro  e Vitor Silva
