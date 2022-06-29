@@ -19,8 +19,8 @@ header{
   justify-content: space-around;
   align-items: center;
   text-decoration: none;
-  background-color: #89CFF0;
-  position: absolute;
+  background-color: #1E62D0;
+  position: absolute;  
 }
 
 .logo img{
@@ -57,7 +57,7 @@ header{
 
 .item-nav:hover{
   background-color: gray;
-  color: #EBB20D;
+  color: #EBB20D;  
 }
 
 nav:hover{
@@ -67,6 +67,7 @@ nav:hover{
 
 li a{
   text-decoration: none;
+  color: -moz-linear-gradient(-45deg, #FF0B0B 0%, #FF9A1F 50%, #FFBE29 100%);
 }
 
 .btn-mobile{
@@ -86,14 +87,14 @@ body{
 }
 
 .banner{
-  background-image: url(../img/fundo3.webp);
-  width: 100vw;
-  height: 500px;
+  background-image: url(../img/fundo3.webp);  
+  width: 100%;
+  height: 450px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  background-attachment: fixed;  
+  justify-content:end;
+  background-attachment: fixed;
 }
 
 .text-banner{
@@ -103,12 +104,16 @@ body{
   margin-left: 10%;
   margin-right: 10%;
   gap: 20px;
-  background-color: rgba(128, 128, 128, 0.697);
+  background-color: rgba(247, 239, 239, 0.8);
   border: 1px solid;
   border-radius: 16px;
   box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.514);
   padding: 20px;
   text-align: justify;
+}
+
+.text-banner h2{
+  color: orangered; 
 }
 
 .text-banner span {
@@ -149,6 +154,7 @@ color: #1E62D0;
   text-align: center;
   margin-top: 20px;
   color: #1E62D0;
+  margin-bottom: 2%;
 }
 
 .botao-banner:hover {
@@ -196,7 +202,7 @@ h1 {
 
 .img-card img{
   width: 100%;
-  height: 180px;
+  height: 250px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -278,8 +284,16 @@ footer{
   line-height: 2;
 }
 
-@media (max-width: 360px)
-{
+@media (max-width: 800px){
+  html{
+    font-size: 0.75rem;
+  }
+
+  .banner {
+    height: 400px;
+  }
+
+@media (max-width: 460px){
   html{
     font-size: 16px;
   }
